@@ -1,0 +1,5 @@
+def Addition(zahl_eins, zahl_zwei):
+    ergebnis = zahl_eins + zahl_zwei
+    return ergebnis
+Summe = Addition(15, 15)
+print(Summe)
