@@ -1,0 +1,10 @@
+def count_occurences(lst, value):
+    count = 0
+    for item in lst:
+        if item == value:
+            count += 1
+    return count
+my_list = [1, 3, 7, 3, 9, 3, 5, 1, 3]
+search_value = 3
+result = count_occurences(my_list, search_value)
+print("Der Wert", search_value, "kommt", result, "Mal in der Liste vor.")
