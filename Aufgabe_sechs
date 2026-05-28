@@ -1,0 +1,10 @@
+def calculate_average(numbers):
+    if len(numbers) == 0:
+        return
+    average = sum(numbers) / len(numbers)
+    print("Durchschnitt:", average)
+    return average
+print("Test 1:")
+calculate_average([10, 20, 30, 40])
+print("\nTest 2 (leere Liste):")
+calculate_average([])
