@@ -1,0 +1,9 @@
+def summe_bereich(start, ende):
+    ergebnis = 0
+    for zahl in range(start, ende + 1):
+        ergebnis += zahl
+    return ergebnis
+startwert = 1
+endwert = 10
+summe = summe_bereich(startwert, endwert)
+print("Die Summe ist:", summe)
